@@ -285,7 +285,8 @@ UBC provides resources to support student learning and to maintain healthy lifes
 
 ## ACKNOWLEDGEMENTS
 
-The 2022 version of this syllabus was a revision and update of Prof Carl Michal's 2021 Physics 210 syllabus, and has subsequently been revised multiple times.
+* The 2022 version of this syllabus was a revision and update of Prof Carl Michal's 2021 Physics 210 syllabus, and has subsequently been revised multiple times.
+* GenAI was used to recommend revisions to this document to make it more concise and welcoming to students.
 
 
 ## APPENDIX 1: COMPLETE GRADE DECISION TABLE 
