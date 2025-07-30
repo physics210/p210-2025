@@ -95,7 +95,7 @@ The final three class meetings are for preparing and presenting your final poste
 | Nov 17 (M) | Day 19 Project 3, Day 2 |  |  |
 | Nov 19 (W) | Day 20 Project 3, Day 3 | Group Worksheet: File input and output | Project deadline #7 (Nov 20) |
 | Nov 24 (M) | Day 21 File input and output |  |  |
-| Nov 26 (W) | Day 22 Poster presentation prep, Day 1 |  | Project deadline #8 (Nov 27) |
+| Nov 26 (W) | Day 22 Poster presentation preparation day |  | Project deadline #8 (Nov 27) |
 | Dec 01 (M) | Day 23 Poster presentations, Day 1 |  |  |
 | Dec 03 (W) | Day 24 Poster presentations, Day 2 |  | Project deadline #9 (Dec 04) |
 | Dec 10 (W) | Exam period |  | Project deadline #10 (Dec 10) |
