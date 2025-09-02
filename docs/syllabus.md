@@ -311,8 +311,8 @@ Your course grade will be based upon the editorial decisions you are able to ach
 | F (30%) | 1x No Submission |
 | F (25%) | |
 | F (20%) | 2x No Submission|
-| F (20%) | |
-| F (20%) | 3x No Submission, but full credit for Poster Presentation and Engagement Tasks |
+| F (15%) | |
+| F (10%) | 3x No Submission, but full credit for Poster Presentation and Engagement Tasks |
 
 ## APPENDIX 2: ESTIMATE OF ENGAGEMENT POINTS THAT WILL BE AVAILABLE
 
