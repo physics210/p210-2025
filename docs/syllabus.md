@@ -20,7 +20,7 @@
  
 **Instructor:** Joss Ives (joss.ives at ubc dot ca)
 
-**TAs:** TBA
+**TAs:** Russell Bate, Madison Levagood, Tanay	Mahendru, Joshua Montain, Ryan Quinn, Raishar Shayan, Joey Townsend, Daniel Turner, Audrey Yang, Allen Zhao
 
 **Location:** 	Hebb B112
 
@@ -37,7 +37,10 @@ Please attend the sections in which you are registered. The timetable distinctio
 
 **Co-reqs:** One of MATH 152, MATH 221, MATH 223
 
-**Office Hours:** (will be set based on a course-wide poll)
+**Office Hours:** In Hebb 112 and usually available on Zoom as well
+- Tuesdays: 16:00-17:30
+- Thursdays: 11:45-13:15 & 16:00-17:30
+- Fridays: 14:15-15:45
 
 **Textbook:** There’s no required textbook for this course. Instead, you’ll learn through pre-class assignments, group worksheets and homework, which will all serve as references. If you'd like a more structured resource, consider *A Student’s Guide to Python for Physical Modeling* (Kinder & Nelson, 2nd ed.) or the excellent (and free) [*Computational Physics with Python*](https://freecomputerbooks.com/Computational-Physics-with-Python-by-Eric-Ayars.html) by Eric Ayars.
 
