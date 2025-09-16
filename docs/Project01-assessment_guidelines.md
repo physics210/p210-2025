@@ -32,6 +32,7 @@ The feedback you receive from the referees will fall into the following categori
 The sub-category of Effective coding practices (making code efficient, readable, concise and/or final) includes, but is not limited to, the following:
 * Making variable names descriptive,
 * Providing clear communication of the purpose of each chunk of code via a "code block summary" written in Markdown,
+* Augmenting the descriptive variable names and "code block summary" with sufficient commenting to allow others in the course to easily understand what is going on whne reading through your code,
 * Ensuring that any output provided by the code has its purpose described,
 * Ensuring that diagnostic output from the code has been removed from the body of the project,
 * Ensuring that diagnostic output included in the appendices is only what is needed for that specific validation task,
