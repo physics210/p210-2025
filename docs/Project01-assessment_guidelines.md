@@ -1,4 +1,4 @@
-# Project 01 assessment guidelines
+# Project 01 Assessment Guidelines
 **Last update:** Sep 15, 2025
 
 ## *Overview*
