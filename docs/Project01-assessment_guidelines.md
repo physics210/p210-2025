@@ -1,5 +1,158 @@
-# Project 01 Assessment Guidelines
-**Last update:** Sep 15, 2025
+# Project 01 - Destructive Collisions: Instructions & Assessment Guidelines
+**Last update:** Sep 17, 2025
+
+## *Description of the project*
+
+The goal of this project is to develop a research question, answered using a simulation involving one or more collisions, **as well as one or more objects that will be destroyed if they experience too large of a force during one of the collisions**. The motion of one or more objects **before and after** one of your collisions should be integral to your simulation. Below we provide you with some starter code for you to modify. This code uses Euler's method, but you are welcome to use more advanced algorithms---such as RK4---as long as you adhere to a format where you build your own loops, step size logic, and mathematical operations. You are not allowed to use a pre-built ordinary differential equation solver (e.g., you cannot use `solve_ivp()`). 
+
+The destruction aspect of the collision is included for a couple of reasons. First, it necessitates making multiple assumptions about real-world quantities. **An extremely important example of this is that you will need to make decisions about how long the collisions last, and justify these decisions as part of your report.** Second, the use of a categorical outcome in your simulation (e.g., is the object destroyed or not) provides a useful anchor for research questions where you vary one or more independent variables. Speak to Joss if you have an alternate constraint to an object being destroyed that you would like to use in your simulation.
+
+An example research question that combines all these ideas is **"At which speeds and angles can I bounce a water balloon off the ground, such that it doesn't explode and such that it hits a target on the wall."**
+
+The incomplete starter code found below is intended to simulate what happens when two objects (balls) collide with each other (this part does not work yet) and with barriers on either side (this part works). You will need to update this code so that it works as intended, and then extend the code to incorporate destructible elements, additional physics and to answer your research question. Please see Canvas for a gallery of Project 01 posters showing examples of the creativity that last year's students brought to their physical situations, physics extensions and research questions.
+
+## *Completing your project*
+
+As part of developing your final project report, you will submit two intermediate documents showing your progress. 
+
+### Stage 1: Update the starter code and add some plots (Due Mon., Sep. 22)
+
+Your Homework 05 assignment has three primary tasks, which will also be restated in the Homework 05 notebook.
+
+* **Task 1:** Update the starter code in the Project 01 Tempate so that the collision between the two objects is handled correctly.<br><br>
+* **Task 2:** Add one or more well-captioned and labeled plots (not animations) that show the kinematic behaviour of the two objects. It's up to you exactly what you plot, but the idea is that these plots provide you (and the reader) with insight into the behaviour of these objects within the simulation. These types of plots can also be extremely valuable in troubleshooting your code, or otherwise validating that your simulation is behaving as intended.<br><br>
+* **Task 3:** Try at least two different sets of initial conditions that you feel could result in unexpected behaviour in your simulation. Examples include making values--such as the initial kinematic quantities or physical properties---significantly smaller or larger than the ones provided. In each case describe which values you changed, why you thought these values might result in unexpected behaviour, and if they did actually result in any unexpected behaviour. If the unexpected behaviour is something that should be fixed, try your best to fix it.
+
+### Stage 2: A first, very early draft of your project for peer feedback (Due Wed., Sep. 24)
+
+Using the Project 01 Report Template notebook, you will submit a very early draft of your project showing the initial development of your project ideas. Your notebook should contain at least:
+
+1. An expansion of the physics in the code in at least one substantive way. Examples include (but are not limited to) making the collisions not perfectly elastic, adding an incline, incorporating friction, adding acceleration panels, connecting the balls with a spring, or working in more than one dimension. <br><br>
+1. A research question that you find interesting and which is related to the expansions of the physics that you have implemented. Your research question should be built around varying one or more independent variables (we will refer often to this as a phase-space investigation).
+
+In addition to these required elements, you might incorporate some of the Stage 3 elements in your submission since the further along that your project is, the more valuable the feedback will be that you receive from your peers in class on Sep. 24. 
+
+### Stage 3: A complete draft of your project (see the syllabus for project deadlines)
+
+Continuing in your Project 01 Report notebook, refine your Stage 2 ideas and perform one or more investigations to answer your researh questions. Communicate your investigation and findings in the form of a project report.
+
+There is some flexibility in the structure of your project report, but here are the key formatting instructions:
+
+1. It should start with an Introduction or Overview to provide the reader with a brief overview of the project, your research question and the context needed to make sense of your research question. <br><br>
+
+1. It should end (before acknowledgements, bibliography or appendices) with a Summary of Results or Conclusion, which should remind the reader what you research question was and then provide the answer to it. This section should refer back to the evidence in the rest of the project to support your answer. This section should also include a **discussion of limitations**, and the **next steps** you would take with this project if you had more time. <br><br>
+
+1. In between the two sections described above should be the main body of your investigation, consisting of the markdown and code cells needed to describe what is going on, and to perform the actual investigation. <br><br>
+
+1. Make use of section titles to help orient and guide the reader.<br><br>
+
+1. A bibliography of any references cited in your project. The formatting of the bibliographic information is not strict. It just needs to be sufficiently easy for a person to track down your source based on the information provided. <br><br>
+
+1. You should use inline citations to indicate which bibligraphic entry is being used as a source for all equations, data, figures, theories, or ideas that aren't your own original work or aren't common knowledge in physics. For example: "Recent measurements show the Hubble constant to be 67.4 km/s/Mpc [1]." Have a look at almost any page on Wikipedia to see how inline citations are used and connected to the biblography.<br><br>
+
+1. As an appendix to your project report (please see the Project 01 Report Template and example report), you will share 2-3 ways that you validated the behaviour of your simulation. By this we mean we want you to put some energy into convincing yourself that your simulation behaves as you intended, from the perspective of the physics and the code. In the process of building and debugging your simulation you will have used some combination of common sense, by-hand calculations, visualizations, debugger interactions and targeted print statements to build up your confidence that things are all behaving correctly. We don't need to see every single one of these validation tasks. Instead, we are asking you to highlight the 2-3 most compelling of these validation / debugging / error-testing steps or tasks.
+
+   - For Project 01, your first validation task is to choose two different sets of starting parameters and compare some behaviour in your simulation to corresponding by-hand calculations to convince yourself that aspect of your simulation is behaving correctly across multiple conditions. For example, if you have multiple collisions within the simulation, focus on what your perceive to be the most important of these collisions. 
+   - The other one or two of these validation tasks should focus on behaviours of your simulation that don't make sense to validate using by-hand calculations. <br><br>
+
+1. As a second appendix in your project report, answer a series of reflection questions (provided in the Project 01 Report Template). These questions are designed to help you check your project report against the criteria and expectations before submission and to help us better understand where you extended yourself in completing this project.<br><br>
+
+1. An Acknowledgements section that provides attribution for the help you received in completing your project. This section MUST INCLUDE a statement regarding if and how Generative AI was used in completing your project. 
+
+   * If you **did not** use Generative AI in completing your project, a statement such as "Generative AI was not used to support any aspect of the work submitted in this project report."
+   * If you used Generative AI, describe how you used it. You should be specific about whether you used it to generate initial code/text, to modify code/text, to troubleshoot code and/or to revise text, and which specific code blocks or sections of text benefited from your use of Generative AI. As a reminder, use of Generative AI to support your work is allowed, but the expectation is that you have made significant intellectual contributions toward the final project that you submit.<br><br>
+
+1. Other formatting details, such as how code should be formatted and commented, are included in the Project 01 Assessment document.
+
+
+<br>Some other key aspects of your project report are:
+
+1. The use a context or situation that you find interesting to help motivate your investigations and research questions.<br><br>
+
+1. Making sure that one or more of the objects is destructible with some well-defined **maximum forces they can tolerate**. These maximum forces should be grounded in real-world examples. You are asked to provide references and justifications for your choice(s). <br><br>
+
+1. You will also have to make many other assumptions along the way. Examples of some of the assumptions you will need to make and justify with real-world examples:
+
+   * Is the collision elastic or inelsatic, and if inelastic how much energy is lost?
+   * How long does it take for each of your collisions to occur? This will not necessarily be the same as the time step `dt`.
+   * An example of an insufficient justification would be "0.1s seems like a reasonable duration for the collision" <br><br>
+  
+1. Your report must include a well-captioned and well-labeled **static multi-panel graph** (no animations) which provides insight into the behaviour of your simulation for a given set of parameters and initial conditions. Be creative! This graph should be a concise visual representation that summarizes the behaviour of your simulation for a typical set of parameters and initial conditions, and which highlights one or more interesting things about the behaviour of your simulation (interactions, changes in quantities, etc). When you are building and debugging your simulation, it is likely you will use many more visualizations than just these ones, but in your final submission you want to present a concise visual representation, as described. <br><br>
+
+1. Your report must also include a well-caption and well-labeled graph that provides the main evidence / information used to answer your research question. For most research questions, this graph will represent the findings of your simulation as you vary one or more parameters in your simulation (such as initial velocity). This can be a single- or multi-panel graph.<br><br>
+
+1. Your report should be a working Jupyter notebook, meaning that a person should be able to run your notebook to produce all of the relevant results, graphs, etc. It must contain all of the code needed to 
+
+    * Show how your simulation works,
+    * Produce all data that you will be analyzing, and
+    * Have the code and data needed to produce any plots that you include. 
+
+## *Further advice on developing your project*
+
+**Don't try to build all of the complexity into your simulation at once!** Make the simplest viable version first and make sure it works as intended. Once you understand the amount of work involved in having done that, you will have a much better idea of how much work it will be to incorporate all of your other great ideas.
+
+For those interested in elevating their project to earn distinction points, my experience has been that this often comes naturally through the process of you developing a project that you find interesting and motivating. For many students, it can be helpful to try to come up with a project that has a clear path to being "A" quality (remember "Publish" is equivalent to "A" quality), but which also has room to add further complexity. This allows you to proceed confidently with your project knowing that you can achieve "Publish" while also still having the option to invest the additional effort to elevate it into the distinction point realm. 
+
+## *Starter code*
+
+```python
+### Starter code for Project 01
+
+import numpy as np
+
+# Constants
+t0 = 0      # s
+dt = 0.1    # s
+t_max = 100 # s
+n_steps = int( (t_max - t0) / dt) + 1 # Total number of steps
+left_barrier = -10 # m
+right_barrier = 10 # m
+
+# Arrays to save simulation information
+t = np.zeros(n_steps)
+x1 = np.zeros(n_steps)
+x2 = np.zeros(n_steps)
+v1 = np.zeros(n_steps)
+v2 = np.zeros(n_steps)
+
+# Object 1
+x1_initial = -5 # m
+v1_initial = 2  # m/s
+r1 = 0.05 # m
+m1 = .01 # kg
+x1[0] = x1_initial 
+v1[0] = v1_initial 
+
+# Object 2
+x2_initial = 7  # m
+v2_initial = -1 # m /s
+r2 = 0.02 # m
+m2 = .001 # kg
+x2[0] = x2_initial 
+v2[0] = v2_initial 
+
+
+for i in range(1,n_steps):
+    
+    # Update kinematic variable for both objects
+    x1[i] = x1[i-1] + v1[i-1] * dt
+    x2[i] = x2[i-1] + v2[i-1] * dt
+    v1[i] = v1[i-1]
+    v2[i] = v2[i-1]
+    t[i]  =  t[i-1] + dt
+
+    # Check for collisions and update kinematic quantities as needed
+    if x1[i] + r1 >= right_barrier or x1[i] - r1 <= left_barrier:
+        v1[i] = -v1[i]
+
+    if x2[i] + r2 >= right_barrier or x2[i] - r2 <= left_barrier:
+        v2[i] = -v2[i]
+```
+
+
+
+
+
 
 ## *Overview*
 
