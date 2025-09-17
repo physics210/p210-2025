@@ -62,7 +62,7 @@ There is some flexibility in the structure of your project report, but here are 
    * If you **did not** use Generative AI in completing your project, a statement such as "Generative AI was not used to support any aspect of the work submitted in this project report."
    * If you used Generative AI, describe how you used it. You should be specific about whether you used it to generate initial code/text, to modify code/text, to troubleshoot code and/or to revise text, and which specific code blocks or sections of text benefited from your use of Generative AI. As a reminder, use of Generative AI to support your work is allowed, but the expectation is that you have made significant intellectual contributions toward the final project that you submit.<br><br>
 
-1. Other formatting details, such as how code should be formatted and commented, are included in the Project 01 Assessment document.
+1. Other formatting details, such as how code should be formatted and commented, are described in the assessment section below.
 
 
 <br>Some other key aspects of your project report are:
@@ -151,7 +151,7 @@ for i in range(1,n_steps):
 
 ## *5. Assessment Overview*
 
-The project report should follow some loose structural guidelines, as described in the Project 01 Instructions.
+The project report should follow some loose structural guidelines, as described above.
 
 As described in the [syllabus](https://physics210.github.io/p210-2025/syllabus.html), projects are given feedback by the graders and an overall Editorial Decision, such as Major Revisions or Accepted for Publication (aka Publish). Projects that have been accepted for publication can earn one ("Notable") or two ("Exemplary") distinction points by going above and beyond expectations and producing work that warrants sharing with the entire class. The process to apply to be considered for distinction points is detailed in the Project 01 Distinction Proposal Form on Canvas and distinction points are awarded by Joss (the "editor"), as opposed to the graders (the "referees").
 
