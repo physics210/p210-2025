@@ -1,7 +1,7 @@
 # Project 01 - Destructive Collisions: Instructions & Assessment Guidelines
 **Last update:** Sep 17, 2025
 
-## *Description of the project*
+## *1. Description of the project*
 
 The goal of this project is to develop a research question, answered using a simulation involving one or more collisions, **as well as one or more objects that will be destroyed if they experience too large of a force during one of the collisions**. The motion of one or more objects **before and after** one of your collisions should be integral to your simulation. Below we provide you with some starter code for you to modify. This code uses Euler's method, but you are welcome to use more advanced algorithms---such as RK4---as long as you adhere to a format where you build your own loops, step size logic, and mathematical operations. You are not allowed to use a pre-built ordinary differential equation solver (e.g., you cannot use `solve_ivp()`). 
 
@@ -11,11 +11,11 @@ An example research question that combines all these ideas is **"At which speeds
 
 The incomplete starter code found below is intended to simulate what happens when two objects (balls) collide with each other (this part does not work yet) and with barriers on either side (this part works). You will need to update this code so that it works as intended, and then extend the code to incorporate destructible elements, additional physics and to answer your research question. Please see Canvas for a gallery of Project 01 posters showing examples of the creativity that last year's students brought to their physical situations, physics extensions and research questions.
 
-## *Completing your project*
+## *2. Completing your project*
 
 As part of developing your final project report, you will submit two intermediate documents showing your progress. 
 
-### Stage 1: Update the starter code and add some plots (Due Mon., Sep. 22)
+### 2.1. Stage 1: Update the starter code and add some plots (Due Mon., Sep. 22)
 
 Your Homework 05 assignment has three primary tasks, which will also be restated in the Homework 05 notebook.
 
@@ -23,7 +23,7 @@ Your Homework 05 assignment has three primary tasks, which will also be restated
 * **Task 2:** Add one or more well-captioned and labeled plots (not animations) that show the kinematic behaviour of the two objects. It's up to you exactly what you plot, but the idea is that these plots provide you (and the reader) with insight into the behaviour of these objects within the simulation. These types of plots can also be extremely valuable in troubleshooting your code, or otherwise validating that your simulation is behaving as intended.<br><br>
 * **Task 3:** Try at least two different sets of initial conditions that you feel could result in unexpected behaviour in your simulation. Examples include making values--such as the initial kinematic quantities or physical properties---significantly smaller or larger than the ones provided. In each case describe which values you changed, why you thought these values might result in unexpected behaviour, and if they did actually result in any unexpected behaviour. If the unexpected behaviour is something that should be fixed, try your best to fix it.
 
-### Stage 2: A first, very early draft of your project for peer feedback (Due Wed., Sep. 24)
+### 2.2. Stage 2: A first, very early draft of your project for peer feedback (Due Wed., Sep. 24)
 
 Using the Project 01 Report Template notebook, you will submit a very early draft of your project showing the initial development of your project ideas. Your notebook should contain at least:
 
@@ -32,7 +32,7 @@ Using the Project 01 Report Template notebook, you will submit a very early draf
 
 In addition to these required elements, you might incorporate some of the Stage 3 elements in your submission since the further along that your project is, the more valuable the feedback will be that you receive from your peers in class on Sep. 24. 
 
-### Stage 3: A complete draft of your project (see the syllabus for project deadlines)
+### 2.3. Stage 3: A complete draft of your project (see the syllabus for project deadlines)
 
 Continuing in your Project 01 Report notebook, refine your Stage 2 ideas and perform one or more investigations to answer your researh questions. Communicate your investigation and findings in the form of a project report.
 
@@ -87,13 +87,13 @@ There is some flexibility in the structure of your project report, but here are 
     * Produce all data that you will be analyzing, and
     * Have the code and data needed to produce any plots that you include. 
 
-## *Further advice on developing your project*
+## *3. Further advice on developing your project*
 
 **Don't try to build all of the complexity into your simulation at once!** Make the simplest viable version first and make sure it works as intended. Once you understand the amount of work involved in having done that, you will have a much better idea of how much work it will be to incorporate all of your other great ideas.
 
 For those interested in elevating their project to earn distinction points, my experience has been that this often comes naturally through the process of you developing a project that you find interesting and motivating. For many students, it can be helpful to try to come up with a project that has a clear path to being "A" quality (remember "Publish" is equivalent to "A" quality), but which also has room to add further complexity. This allows you to proceed confidently with your project knowing that you can achieve "Publish" while also still having the option to invest the additional effort to elevate it into the distinction point realm. 
 
-## *Starter code*
+## *4. Starter code*
 
 ```python
 ### Starter code for Project 01
@@ -149,12 +149,7 @@ for i in range(1,n_steps):
         v2[i] = -v2[i]
 ```
 
-
-
-
-
-
-## *Overview*
+## *5. Assessment Overview*
 
 The project report should follow some loose structural guidelines, as described in the Project 01 Instructions.
 
@@ -162,7 +157,7 @@ As described in the [syllabus](https://physics210.github.io/p210-2025/syllabus.h
 
 Much like what happens when practicing scientists submit their work to academic journals, even a relatively high-quality first submission is likely to receive an Editorial Decision of minor or Major Revisions because the grader (referee) will inevitably have many suggestions to improve the overall quality of your project and its report.
 
-## *Feedback categories*
+### 5.1. Feedback categories
 
 This section details the feedback categories that we will consider when reviewing your projects, which also provide a useful framework in which you can assess if your project is complete and ready to submit.
 
@@ -193,7 +188,7 @@ The sub-category of Effective coding practices (making code efficient, readable,
 * Using efficient coding practices (e.g., using a dynamic print statement in the Homework 03 motion diagram instead of a long if/elif conditional with individualized print statements for every possible case).
 
 
-## *Meeting expectations vs earning distinction points by exceeding expectations*
+### 5.2. Meeting expectations vs earning distinction points by exceeding expectations
 
 Earning distinction points:
 To earn distinction points for an aspect of your report, you need to have clearly gone above and beyond expectations in terms of the creativity, complexity, effectiveness and/or thoroughness of your work. The ways in which you expand and extend your simulation should make sense in the context of your research question and not be included only to increase complexity. The expectation for a project to earn distinction points is that it should have a key element that has exceeded expectations to the point that the project warrants being used as an exemplar in a future year.
