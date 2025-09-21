@@ -25,12 +25,24 @@ Your Homework 05 assignment has three primary tasks, which will also be restated
 
 ### 2.2. Stage 2: A first, very early draft of your project for peer feedback (Due Wed., Sep. 24)
 
-Using the Project 01 Report Template notebook, you will submit a very early draft of your project showing the initial development of your project ideas. Your notebook should contain at least:
+Submit a very early draft of your project using the Project 01 Report Template notebook. This draft should show initial development of your project ideas and contain the following minimum requirements:
 
-1. An expansion of the physics in the code in at least one substantive way. Examples include (but are not limited to) making the collisions not perfectly elastic, adding an incline, incorporating friction, adding acceleration panels, connecting the balls with a spring, or working in more than one dimension. <br><br>
-1. A research question that you find interesting and which is related to the expansions of the physics that you have implemented. Your research question should be built around varying one or more independent variables (we will refer often to this as a phase-space investigation).
+**Required Elements:**
 
-In addition to these required elements, you might incorporate some of the Stage 3 elements in your submission since the further along that your project is, the more valuable the feedback will be that you receive from your peers in class on Sep. 24. 
+1. **Research Question Markdown Cell**: At the start of your notebook, create a markdown cell labeled **"Research Question:"** containing your research question. This should be something you find interesting and related to your physics added beyond the starter code. Your question must involve varying one or more independent variables to observe their impact on an outcome variable.<br><br>
+
+2. **Additional Physics Markdown Cell**: At the start of your notebook, ccreate a second markdown cell labeled **"Additional Physics:"** with a brief paragraph describing how you've expanded the physics beyond the starter code.<br><br>
+
+3. **Working Code**: Include functional code that demonstrates at least one substantive expansion of the physics. Examples include:<br><br>
+   - Making collisions less than perfectly elastic,
+   - Adding an incline or friction,
+   - Incorporating acceleration panels,
+   - Connecting balls with springs, and
+   - Working in multiple dimensions.<br><br>
+
+4. **Visualization**: Provide well-labeled and well-captioned plots (not animations) showing the kinematic behavior of your objects, including your additional physics. These are the same requirements as Homework 05.<br><br>
+
+**Optional**: You may include Stage 3 elements in your submission. The more complete your project, the more valuable the peer feedback will be during class on Sep. 24.
 
 ### 2.3. Stage 3: A complete draft of your project (see the syllabus for project deadlines)
 
