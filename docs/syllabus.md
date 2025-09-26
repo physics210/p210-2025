@@ -148,7 +148,7 @@ Projects in this course involve using computational physics investigations to ex
 | ***Publish***         | Fully meets criteria, no outstanding issues.           |
 | ***Minor Revisions*** | Mostly complete; small issues remain.            |
 | ***Major Revisions*** | Key issues need significant work.                |
-| ***Incomplete***      | Off-track; meet with instructor before revising. |
+| ***Incomplete***      | Off-track; meet with instructor before revising. We will provide minimal if a submission has been assessed as being incomplete. |
 | ***No Submission***   | Nothing submitted yet.                           |
 
 
