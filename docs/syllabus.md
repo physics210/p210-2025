@@ -146,9 +146,9 @@ Projects in this course involve using computational physics investigations to ex
 | Decision            | Meaning                                          |
 | :------------------ | :----------------------------------------------- |
 | ***Publish***         | Fully meets criteria, no outstanding issues.           |
-| ***Minor Revisions*** | Mostly complete; small issues remain.            |
-| ***Major Revisions*** | Key issues need significant work.                |
-| ***Incomplete***      | Off-track; meet with instructor before revising. We will provide minimal if a submission has been assessed as being incomplete. |
+| ***Minor Revisions*** | Small issues are present that should be straight-forward to address. |
+| ***Major Revisions*** | Key issues require significant further work. Seek informal feedback before resubmitting to ensure they have been addressed appropriately.            |
+| ***Incomplete***      | Off-track - feedback focuses ONLY on aspects of the project that were assessed as incomplete. Meet with ithe nstructor before revising. |
 | ***No Submission***   | Nothing submitted yet.                           |
 
 
