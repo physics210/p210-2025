@@ -86,8 +86,8 @@ The final three class meetings are for preparing and presenting your final poste
 | Oct 01 (W) | Day 09 Functions | Group Worksheet: Functions | Project deadline #1 (Oct 2) |
 | Oct 06 (M) | Day 10 Containers (dictionaries and tuples) and `solve_ivp()` (our Ordinary Differential Equation solver) | Group Worksheet: Electric field hockey 1 |  |
 | Oct 08 (W) | Day 11 Advanced array techniques; while loops  |  | Project deadline #2 (Oct 09) |
-| Oct 13 (M) | Thanksgiving (university closed) |  |  |
-| Oct 15 (W) | Day 12 Project 2, Day 1 | Group Worksheet: Advanced array techniques | Project assignmnet: Circular orbit with `solve_ivp()`<br><br>Project deadline #3 (Oct 16) |
+| Oct 13 (M) | Thanksgiving (university closed) | Group Worksheet: Advanced array techniques  |  |
+| Oct 15 (W) | Day 12 Project 2, Day 1 |  | Project assignment: Circular orbit with `solve_ivp()`<br><br>Project deadline #3 (Oct 16) |
 | Oct 20 (M) | Day 13 Project 2, Day 2 | Project 2 feedback activity |  |
 | Oct 22 (W) | Day 14 Project 2, Day 3 |  | Project deadline #4 (Oct 23)  |
 | Oct 27 (M) | Day 15 Monte-Carlo methods 1 | Group Worksheet: Monte-Carlo methods 1 |  |
