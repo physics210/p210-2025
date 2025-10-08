@@ -1,17 +1,17 @@
 # Project 02: Stable orbits in the Saturnian atomic model
 
 
-## *Project overview*
+## *1. Project overview*
 The goal of this project is to develop and answer a research question that guides a phase-space investigation related to stable orbits in the Saturnian atomic model using `solve_ivp`. The focus of this project is on the quality and depth of your investigation, as opposed to building in additional physics interactions or extending the context.
 
 
-## *Backstory*
+## *2. Backstory*
 You have been transported back in time to the office of Hantaro Nagaoka at Tokyo Univeristy in 1904 shortly after the discovery of the electron, but before the development of quantum mechanics. Thankfully your computer---with python installed---made the trip with you. Hantaro is working on his "Saturnian" model for the structure of the atom. In this model, the electron orbits a positively charged center similar to the rings of saturn.  You've offered to use python to help him work on his theory.   
 
 Lucky for you and Hantaro, before you were transported back in time, you were learning how to work with `solve_ivp` to play electric field hockey in Physics 210. The code you made for that serves as a great starting point for exploring the Saturnian model!
 
 
-## *Project details*
+## *3. Project details*
 Your task is to explore which parameters support stable orbits in the Saturnian model. You will develop one or more research questions that explore the phase space (sets of input parameters) that support stable orbits in this model. A key challenge in this project will be to develop the code that discriminates between stable and unstable orbits.
 
 Your project must include a minimum of three particles: one electron and two fixed-postion nuclei, or one fixed-position nucleus and two electrons. Your phase-space exploration should focus on finding ranges of initial conditions over which stable orbits occur. The most interesting investigations will typically include detailed explorations of the regions where there are transitions from stable to unstable orbits.
@@ -20,8 +20,24 @@ You are not required to work at an atomic distance scale for this project. You c
 
 **Hint:** You will likely want to develop your code so that you can easily change parameters/initial conditions and then determine if a stable orbit has occurred. Consider making a function that allows you to change initial conditions easily and returns something that tells you about the properties of the orbit.
 
+As part of developing your final project report, you will submit two intermediate documents showing your progress. 
 
-## *Developing and completing your project*
+### 3.1. Stage 1: Create a stable system consisting of an electron orbiting a proton (Due Wed., Oct. 15)
+
+Please see your Homework 11, Part 2 for further details.
+
+### 3.2. Stage 2: A first, very early draft of your project for peer feedback (Due Mon., Oct. 20)
+
+Submit a very early draft of your project using the Project 02 Report Template notebook. This draft should show initial development of your project ideas and contain the following, at minimum:
+
+1. A configuration of 3+ charges with at least one stable orbit found and visualized.
+2. A short paragraph at the beginning of the notebook summarizing how you have varied the initial conditions/parameters in your phase space investigations so far and a discussion of in what direction you are planning to take your research question. If your project is already far enough along that you have already investigated a well-specified research question please share your research question and your current plan for investigating that research question.
+
+### 3.3. Stage 3: A complete draft of your project (see the syllabus for project deadlines)
+
+More project details below.
+
+## *4. Developing and completing your project*
 
 1. Develop some code that uses `solve_ivp` to model the behaviour of your multi-particle system. Note that it is much more challenging to establish stable orbits with two electrons orbiting one stationary particle as opposed to having one electron orbiting two stationary particles. You may wish to engage in a brief exploration with each type of setup before making your decision on which setup to use in your investigations.<br><br>
 
@@ -29,7 +45,7 @@ You are not required to work at an atomic distance scale for this project. You c
 
 1. Produce a project report (a computational narrative in Jupyter notebook form) using the Project 02 template (it is a copy of the Project 01 template). This project report should ask and answer your research question, with the body of the providing the evidence and information needed to support your answer to the research question. The [Assessment Overview](https://physics210.github.io/p210-2025/Project01-instructions_and_assessment.html#5-assessment-overview) from the Project 01 Instructions applies for this project as well, and lays out the key features that should be in this report. <br><br>
 
-## *Key project formatting details*
+## *5. Key project formatting details*
 
 1. It should start with an Introduction or Overview to provide the reader with a brief overview of the project, your research question and the context needed to make sense of your research question.<br><br>
 
@@ -55,9 +71,7 @@ You are not required to work at an atomic distance scale for this project. You c
 
 1. As a second appendix in your project report, answer a series of reflection questions (provided in the Project 02 Report Template). These questions are designed to help you check your project report against the criteria and expectations before submission and to help us better understand where you extended yourself in completing this project.
 
-
-
-## *Tips*
+## *6. Tips*
 
 1. **Start with a 1 proton + 1 electron system if you are struggling at all to get things up and running.** This system is like a simple Earth + satellite system where you just need to pick a distance scale (initial distance between the proton and electron) and there will be a single, unique speed that corresponds to a circular orbit. And you can calculate the period of this orbit as well. This gives you starting points and order of magnitude constraints for your initial velocities in the more complicated systems and for how long to run the simulation since you won't usually want it to be much more than an order of magnitude larger than the period of this simple orbit. Then, add your next particle and use these values as your starting points.<br><br>
 
