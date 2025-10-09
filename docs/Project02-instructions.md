@@ -82,4 +82,4 @@ More project details below.
 1. **Zoom in on your central charge when you expect a somewhat stable orbit, but don't observe it.** When you observe your moving charge moving directly away from the central charge(s), zoom in on the central charge as it may reveal some initial quasi-stable orbital behaviour.<br><br>
 
 1. **Set your `atol` and `rtol` tolerances value nice and small.** Small values for these forces the precision of the solution to be as high as possible. The ensures, for example, that the simple system of one electron orbitting one proton will have a stable, energy-conserving, circular orbit. If your precision isn't high enough, you might end up with non-physical behaviours such as the electron spiralling toward the proton. Example:
-   * `sol = solve_ivp(diff_eqns, t_span, state0, max_step=dt, rtol=1e-7, atol=1e-9)`<br><br>
+   * `sol = solve_ivp(diff_eqns, t_span, state0, max_step=dt, rtol=1e-9, atol=1e-9)`<br><br>
