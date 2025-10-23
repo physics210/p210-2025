@@ -12,9 +12,9 @@ Lucky for you and Hantaro, before you were transported back in time, you were le
 
 
 ## *3. Project details*
-Your task is to explore which parameters support stable orbits in the Saturnian model. You will develop one or more research questions that explore the phase space (sets of input parameters) that support stable orbits in this model. A key challenge in this project will be to develop the code that discriminates between stable and unstable orbits.
+Your task is to explore which parameters support stable orbits in the Saturnian model. You will develop one or more research questions that explore the phase space (sets of input parameters) that support stable orbits in this model. A key challenge in this project will be to develop the code that discriminates between stable and unstable orbits, or between different types of stable orbits.
 
-Your project must include a minimum of three particles: one electron and two fixed-postion nuclei, or one fixed-position nucleus and two electrons. Your phase-space exploration should focus on finding ranges of initial conditions over which stable orbits occur. The most interesting investigations will typically include detailed explorations of the regions where there are transitions from stable to unstable orbits.
+Your project must include a minimum of three particles: one electron and two fixed-postion nuclei, or one fixed-position nucleus and two electrons. Your phase-space exploration should focus on finding ranges of initial conditions over which stable orbits occur. The most interesting investigations will typically include detailed explorations of the regions where there are transitions from stable to unstable orbits, or between different types of stable orbits.
 
 You are not required to work at an atomic distance scale for this project. You can work at distances between the electons and nuclei that more closely resemble those used in the Electric Field Hockey tasks or to use atomic distance scales. It is up to you.
 
@@ -41,7 +41,7 @@ More project details below.
 
 1. Develop some code that uses `solve_ivp` to model the behaviour of your multi-particle system. Note that it is much more challenging to establish stable orbits with two electrons orbiting one stationary particle as opposed to having one electron orbiting two stationary particles. You may wish to engage in a brief exploration with each type of setup before making your decision on which setup to use in your investigations.<br><br>
 
-1. Develop a research question related to stable vs unstable orbits that you find interesting and which can be answered with your simulation. <br><br>
+1. Develop a research question related to stable vs unstable orbits (or changes from one type of orbit to another) that you find interesting and which can be answered with your simulation. <br><br>
 
 1. Produce a project report (a computational narrative in Jupyter notebook form) using the Project 02 template (it is a copy of the Project 01 template). This project report should ask and answer your research question, with the body of the providing the evidence and information needed to support your answer to the research question. The [Assessment Overview](https://physics210.github.io/p210-2025/Project01-instructions_and_assessment.html#5-assessment-overview) from the Project 01 Instructions applies for this project as well, and lays out the key features that should be in this report. <br><br>
 
