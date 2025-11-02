@@ -43,7 +43,7 @@ You and Fermi discuss the Monte Carlo algorithm for the simplified system and co
 8. Repeat this same process to determine how many neutrons, $N_3$, there are in the third generation (a.k.a. the great-grandchildren).<br><br>
 9. Repeat the full three-generation experiment ($N_0$ to $N_3$) a total of $m_\text{replications}$ times. For each generation, you can use the mean and the standard deviation of the $(k)$ values across $m_\text{replications}$ to characterize the system, where the standard deviation can be treated as the uncertainty, $\delta k$b
 
-10. ### 3.3. Example results for the simplified system with of a cube of side length $a = 10.0 \text{ cm}$, $N_0 = 250$ initial neutrons and $m_\text{replications}$ = 300
+### 3.3. Example results for the simplified system with of a cube of side length $a = 10.0 \text{ cm}$, $N_0 = 250$ initial neutrons and $m_\text{replications}$ = 300
 
 This example shows the results going from each generation going to the next ($k_{01}$, $k_{12}$ and $k_{23}$), and uses the average, standard deviation and standard uncertainty of the mean of the multiplication factor $k$ across the $m_\text{replications}$ to characterize the system. 
 
@@ -61,14 +61,14 @@ You will likely find that it takes up to a few minutes to simulate a data set us
 
 In this homework assignment you will build the basic version of the simulation to reproduce the results from Figure 1. See Homework 17 for further details.
 
- ### 4.2. Stage 2: A first, very early draft of your project for peer feedback (Due Mon., Nov. 17)
+### 4.2. Stage 2: A first, very early draft of your project for peer feedback (Due Mon., Nov. 17)
  
 Submit a very early draft of your project using the Project 03 Report Template notebook. This draft should show initial development of your project ideas and contain the following, at minimum:
 
 1. A preliminary investigation showing how the system changes in response to changes in one of the parameters in the system---such as those discussed in Section 5.1.<br><br>
 1. A short paragraph at the beginning of the notebook discussing how you plan to expand your preliminary investigation into a complete project, and a summary of what direction you are planning to take your research question.
 
-2. ### 4.3. Stage 3: A complete draft of your project (see the syllabus for project deadlines)
+### 4.3. Stage 3: A complete draft of your project (see the syllabus for project deadlines)
  
 #### 4.3.1 *Developing and completing your project*
 
@@ -104,9 +104,9 @@ Submit a very early draft of your project using the Project 03 Report Template n
 
 1. As a second appendix in your project report, answer a series of reflection questions (provided in the Project 03 Report Template). These questions are designed to help you check your project report against the criteria and expectations before submission and to help us better understand where you extended yourself in completing this project.
 
-2. ## *5. Your investigation: Exploration of the multiplication factor, $k$*
+## *5. Your investigation: Exploration of the multiplication factor, $k$*
 
-3. Fermi's main task for you is to explore how the multiplication factor $k$ varies as a function of factors such as the size, shape or purity of the sample. Suggestions for other factors you could vary are listed below.  You should start by coming up with general research question(s) that explore(s) the behavior of $k$ over the phase space of this system, and then making visualizations that provide insight into these general research question. Based on these initial investigations, refine your research question(s) and your investigations until you feel like you have produced the evidence needed to provide effective answers to your refined research questions. 
+1. Fermi's main task for you is to explore how the multiplication factor $k$ varies as a function of factors such as the size, shape or purity of the sample. Suggestions for other factors you could vary are listed below.  You should start by coming up with general research question(s) that explore(s) the behavior of $k$ over the phase space of this system, and then making visualizations that provide insight into these general research question. Based on these initial investigations, refine your research question(s) and your investigations until you feel like you have produced the evidence needed to provide effective answers to your refined research questions. 
 
 If you choose to implement any physical extensions, it would be good for your visualizations to include some exploration or demonstration of what their effects are.
 
@@ -122,7 +122,7 @@ It is up to you how to incorporate generation number into these investigations. 
 * **Generations:** Once can vary the total number of generations and incorporate generation number into an investigation in a vareity of ways. 
 * **Even more physics, coding and investigation extensions:** There is a lot of room to extend this project, which is a huge simplification of a nuclear chain reaction. One could account for the fact that more than one neutron would have been generated at each location when generating our initial batch of neutrons, could consider surrounding the sample with nuclear reflectors, could simulate multiple generations of fission events, could vary parameters such as $N_\text{neutrons}$ and $m_\text{replications}$ in your phase space to do careful characterizations of uncertainty, and more.
 
-* ## *Appendix 1. Starter code*
+## *Appendix 1. Starter code*
 
 The starter code below is the result of some initial brainstorming with Fermi. It shows how to generate a neutron at a random position within the cube of Uranium, and then generate a random direction (in 3D) and travel distance for the neutron. 
 
