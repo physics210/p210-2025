@@ -51,7 +51,7 @@ Check that your (mean ± uncertainty in the mean) values of $k_{01}$, $k_{12}$ a
 
 You will likely find that it takes up to a few minutes to simulate a data set using $N_0 = 250$ and $m_\text{replications} = 300$.
 
-![example1.png](attachment:example1.png)
+![Example results to replicate](example1.png)
 
 > **Fig. 1.** Example multiplication factor results for a Uranium 235 cube of side length $a = 10.0 \text{ cm}$, with $N_0 = 250$ initial neutrons. Each of the three panels shows the multiplication factor going from one generation to the next, with each replication representing one data point. The title of each plot shows the mean ± standard uncertainty in the mean (standard deviation divided by $\sqrt{m}$) of the multiplication factor for that generation, across all replications. It also shows the standard deviation (σ).
 
