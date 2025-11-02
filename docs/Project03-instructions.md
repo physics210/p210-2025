@@ -136,7 +136,7 @@ Additional notes:
 * The method used of generating a random direction in 3d may seem a bit counterintuitive. Try searching or asking GenAI about this using a phrase such as "pick a random point on the surface of a sphere with a uniform distribution."
 * It is best to use very low numbers for `N0` and `replications` as you build and test your code so that you are not waiting around forever while developing your code. Once you want to check results, increase these value up to or close to the final values you wish to use.
 
-* ```python
+```python
 # Length of the cube's side
 a = 10.0 # cm
 
