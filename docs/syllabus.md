@@ -94,15 +94,15 @@ The final three class meetings are for preparing and presenting your final poste
 | Oct 29 (W) | Day 16 Fitting | Group Worksheet: Fitting | Project deadline #5 (Oct 30) |
 | Nov 03 (M) | Day 17 Monte-Carlo methods 2; Project 3 is assigned | Group Worksheet: Monte-Carlo methods 2 |  |
 | Nov 05 (W) | Day 18 Project 3, Day 1 |  | Project assignment: Reproduce multiplication factor historgrams<br><br>Project deadline #6 (Nov 06)|
-| Nov 10-12 | Midterm break |  |  |
+| Nov 10-12 | Midterm break |  | Project deadline #7 (Nov 13) |
 | Nov 17 (M) | Day 19 Project 3, Day 2 |  |  |
-| Nov 19 (W) | Day 20 Project 3, Day 3 | Group Worksheet: File input and output | Project deadline #7 (Nov 20) |
+| Nov 19 (W) | Day 20 Project 3, Day 3 | Group Worksheet: File input and output | Project deadline #8 (Nov 20) |
 | Nov 24 (M) | Day 21 File input and output |  |  |
-| Nov 26 (W) | Day 22 Poster presentation preparation day |  | Project deadline #8 (Nov 27) |
+| Nov 26 (W) | Day 22 Poster presentation preparation day |  | Project deadline #9 (Nov 27) |
 | Dec 01 (M) | Day 23 Poster presentations, Day 1 |  |  |
-| Dec 03 (W) | Day 24 Poster presentations, Day 2 |  | Project deadline #9 (Dec 04) |
-| Dec 10 (W) | Exam period |  | Project deadline #10 (Dec 10) |
-| Dec 16 (T) | Exam period |  | Project deadline #11 (Dec 16) |
+| Dec 03 (W) | Day 24 Poster presentations, Day 2 |  | Project deadline #10 (Dec 04) |
+| Dec 10 (W) | Exam period |  | Project deadline #11 (Dec 10) |
+| Dec 16 (T) | Exam period |  | Project deadline #12 (Dec 16) |
 
 > Please see the Project submission deadlines section below for further details
 
