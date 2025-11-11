@@ -203,10 +203,10 @@ Rather than offering extensions, this course uses **weekly project submission de
 
 If you miss a deadline, no problem—the next one will already be open, and you can submit there instead.
 
-|                            | Oct 02    | Oct 09 | Oct 16             | Oct 23    | Oct 30 | Nov 06             | Nov 20    | Nov 27 | Dec 04             | Dec 10                        | Dec 16                   |
-| :------------------------- | :-------- | :----- | :----------------- | :-------- | :----- | :----------------- | :-------- | :----- | :----------------- | :---------------------------- | :----------------------- |
-| **Submission Deadline**    | #1        | #2     | #3                 | #4        | #5     | #6                 | #7        | #8     | #9                 | #10                           | #11                      |
-| **Recommended Submission** | Project 1 |        | Project 1 revision | Project 2 |        | Project 2 revision | Project 3 |        | Project 3 revision | Project 1 or 2 final revision | Project 3 final revision |
+|     | Oct 02    | Oct 09 | Oct 16   | Oct 23    | Oct 30 | Nov 06    | Nov 13 | Nov 20    | Nov 27 | Dec 04     | Dec 10      | Dec 16       |
+| :-------- | :------ | :----- | :-------- | :-------- | :----- | :-------- | :-------- | :----- | :---------- | :------- | :------------------ |
+| **Submission Deadline**    | #1        | #2     | #3      | #4        | #5     | #6      | #7        | #8     | #9       | #10          | #11      | #12      |
+| **Recommended Submission** | Project 1 |        | Project 1 revision | Project 2 |        | Project 2 revision | Project 1 final revision | Project 3 |        | Project 3 revision | Project 2 final revision | Project 3 final revision |
 
 #### Important Notes:
 
