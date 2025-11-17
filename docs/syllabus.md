@@ -88,16 +88,16 @@ The final three class meetings are for preparing and presenting your final poste
 | Oct 08 (W) | Day 11 Advanced array techniques; while loops  |  | Project deadline #2 (Oct 09) |
 | Oct 13 (M) | Thanksgiving (university closed) | Group Worksheet: Advanced array techniques  |  |
 | Oct 15 (W) | Day 12 Project 2, Day 1 |  | Project assignment: Circular orbit with `solve_ivp()`<br><br>Project deadline #3 (Oct 16) |
-| Oct 20 (M) | Day 13 Project 2, Day 2 | Project 2 feedback activity |  |
+| Oct 20 (M) | Day 13 Project 2, Day 2 |  |  |
 | Oct 22 (W) | Day 14 Project 2, Day 3 |  | Project deadline #4 (Oct 23)  |
 | Oct 27 (M) | Day 15 Monte-Carlo methods 1 | Group Worksheet: Monte-Carlo methods 1 |  |
 | Oct 29 (W) | Day 16 Fitting | Group Worksheet: Fitting | Project deadline #5 (Oct 30) |
 | Nov 03 (M) | Day 17 Monte-Carlo methods 2; Project 3 is assigned | Group Worksheet: Monte-Carlo methods 2 |  |
 | Nov 05 (W) | Day 18 Project 3, Day 1 |  | Project assignment: Reproduce multiplication factor historgrams<br><br>Project deadline #6 (Nov 06)|
 | Nov 10-12 | Midterm break |  | Project deadline #7 (Nov 13) |
-| Nov 17 (M) | Day 19 Project 3, Day 2 |  |  |
-| Nov 19 (W) | Day 20 Project 3, Day 3 | Group Worksheet: File input and output | Project deadline #8 (Nov 20) |
-| Nov 24 (M) | Day 21 File input and output |  |  |
+| Nov 17 (M) | Day 19 Project 3, Day 2 | Project 3 feedback activity |  |
+| Nov 19 (W) | Day 20 Project 3, Day 3 |  | Project deadline #8 (Nov 20) |
+| Nov 24 (M) | Day 21 File input and output | Group Worksheet: File input and output |  |
 | Nov 26 (W) | Day 22 Poster presentation preparation day |  | Project deadline #9 (Nov 27) |
 | Dec 01 (M) | Day 23 Poster presentations, Day 1 |  |  |
 | Dec 03 (W) | Day 24 Poster presentations, Day 2 |  | Project deadline #10 (Dec 04) |
