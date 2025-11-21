@@ -90,7 +90,9 @@ Submit a very early draft of your project using the Project 03 Report Template n
 
 1. Make use of section titles to help orient and guide the reader.<br><br>
 
-1. A single- or multi-panel visualization should provide the main evidence / information used to answer your research question. For most research questions, this visualization will represent the findings of your simulation as you vary one or more parameters in your simulation (such as initial velocity). Make effective use of titles, annotations and/or captions so that the reader can easily understand and correctly interpret your visualization.<br><br>
+1. A single- or multi-panel _summative visualization_ should provide the main evidence / information used to answer your research question. For most research questions, this visualization will represent the findings of your simulation as you vary one or more parameters in your simulation (such as initial velocity). Make effective use of titles, annotations and/or captions so that the reader can easily understand and correctly interpret your visualization.<br><br>
+
+1. At least one instance of a visualization that includes how your uncertainties on your k value vary as a function of some other parameter that you have been varying. This could be incorporated into your suammative visualization or could be a standalone visualization. For example, if you produced a heatmap showing how k varies as a function of parameter x and paramter y, you could also produce an error bar plot that shows how k (with uncertainty) varies as a function of x, for some fixed value of y. <br><br>
 
 1. An Acknowledgements section that provides attribution for the help you received in completing your project. This section MUST INCLUDE a statement regarding if and how generative AI was used in completing your project. 
    * If you **did not** use generative AI in completing your project, a statement such as "generative AI was not used to support any aspect of the work submitted in this project report."
